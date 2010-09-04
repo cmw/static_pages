@@ -1,0 +1,8 @@
+Description:
+    Explain the generator
+
+Example:
+    rails generate page Thing
+
+    This will create:
+        app/views/pages/Thing.html.erb

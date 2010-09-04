@@ -1,0 +1,24 @@
+Static Pages
+=====
+
+Static Pages is a rails engine to serve static content from app/views/pages.
+
+Files are displayed following this (named) route:
+
+  map.page "/pages/:id", :controller => :pages, :action => :show
+
+where :id is the name of the file (think template names).
+
+Example
+=======
+
+  rails g page imprint
+
+Creates imprint.html.erb in app/views/pages with this content:
+
+  This page can be found in app/views/pages/imprint.html.erb.
+
+The page can be retrieved by pointing the browser to:
+  localhost:3000/pages/imprint
+
+Copyright (c) 2010 [name of plugin creator], released under the MIT license
