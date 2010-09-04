@@ -10,7 +10,7 @@ PKG_FILES = FileList[
 
 spec = Gem::Specification.new do |s|
   s.name = "static_pages"
-  s.version = "0.0.4"
+  s.version = "0.0.5"
   s.author = "Christian Weis"
   s.email = "christian.weis@gmail.com"
   s.homepage = "http://christian-weis.de/"
